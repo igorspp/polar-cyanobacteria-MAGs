@@ -4,7 +4,7 @@
 
 Bioinformatics workflow used in the article:  
 
-> Pessi IS, Popin RV, Durieu B, Lara Y, Savaglia V, Roncero-Ramos B, Hultman J, Verleyen E, Vyverman W, Wilmotte A. 2023. Novel diversity of polar Cyanobacteria revealed by genome-resolved metagenomics. BioRxiv. doi: .
+> Pessi IS, Popin RV, Durieu B, Lara Y, Savaglia V, Roncero-Ramos B, Hultman J, Verleyen E, Vyverman W, Wilmotte A. 2023. Novel diversity of polar Cyanobacteria revealed by genome-resolved metagenomics. BioRxiv. doi: [10.1101/2023.02.03.526606](https://doi.org/10.1101/2023.02.03.526606).
 
 
 ## Contacts
@@ -85,8 +85,8 @@ mkdir TRIMMED_DATA
 SAMPLES=`cut -f 1 sample_metadata.txt | sed '1d'`
 
 for SAMPLE in $SAMPLES; do
-  cutadapt RAW_DATA/${SAMPLE}.R1.fastq.gz \
-           RAW_DATA/${SAMPLE}.R2.fastq.gz \
+  cutadapt RAW_DATA/${SAMPLE}_R1.fastq.gz \
+           RAW_DATA/${SAMPLE}_R2.fastq.gz \
            -o TRIMMED_DATA/${SAMPLE}.R1.fastq.gz \
            -p TRIMMED_DATA/${SAMPLE}.R2.fastq.gz \
            -a CTGTCTCTTATACACATCTCCGAGCCCACGAGAC \
