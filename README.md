@@ -60,7 +60,7 @@ University of Liège
 
 ## Download raw sequencing data
 
-First download the file `sample_metadata.txt` [here]().
+First download the file `sample_metadata.txt` [here](sample_metadata.txt).
 
 ```bash
 mkdir RAW_DATA
