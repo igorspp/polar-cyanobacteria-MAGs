@@ -34,11 +34,15 @@ University of Liège
 10. [Gather and rename all MAGs](#gather-and-rename-all-mags)
 11. [Assign taxonomy to the MAGs](#assign-taxonomy-to-the-mags)
 12. [Collect cyanobacteria MAGs](#collect-cyanobacteria-mags)
+13. [Import cyanobacteria MAGs to anvi'o](#import-cyanobacteria-mags-to-anvio)
+14. [Phylogenomic analysis](#phylogenomic-analysis)
+15. [Annotate MAGs](#annotate-mags)
+16. [Read recruiment analysis](#read-recruiment-analysis)
 
 
 ## Software requirements
 
-* `GNU parallel`: 
+* `GNU parallel`: https://www.gnu.org/software/parallel 
 * `SRA Toolkit v3.0.3`: https://github.com/ncbi/sra-tools
 * `fastQC v0.11.9`: http://www.bioinformatics.babraham.ac.uk/projects/fastqc
 * `multiQC v1.8`: https://multiqc.info
@@ -48,10 +52,10 @@ University of Liège
 * `MEGAHIT v1.1.1.2`: https://github.com/voutcn/megahit
 * `anvi’o v7.0`: https://anvio.org
 * `GTDB-Tk v1.3.0`: https://github.com/Ecogenomics/GTDBTk
-* `ncbi-genome-download v0.3.1`: 
-* `IQ-TREE v2.1.4`: 
-* `dRep v3.2.2`: 
-* `CoverM v0.6.1`: 
+* `ncbi-genome-download v0.3.1`: https://github.com/kblin/ncbi-genome-download
+* `IQ-TREE v2.1.4`: http://www.iqtree.org
+* `dRep v3.2.2`: https://github.com/MrOlm/drep
+* `CoverM v0.6.1`: https://github.com/wwood/CoverM
 
 
 ## Download raw sequencing data
