@@ -1,18 +1,18 @@
 Sample	Region	Location	Accession
-13KAP6	Arctic	"Kapisillit, Greenland"	ERR10836078
-13ZAC7	Arctic	"Zackenberg, Greenland"	ERR10836079
-SP14	Arctic	"Spitsbergen, Svalbard"	ERR10836080
-Mac8	sub-Antarctic	"Macquarie Island, South Pacific Ocean"	ERR10836081
-Prion	sub-Antarctic	"Macquarie Island, South Pacific Ocean"	ERR10836082
-MI44	sub-Antarctic	"Marion Island, South Indian Ocean"	ERR10836083
-Bel_s	Maritime Antarctica	"King George Island, Graham Land"	ERR10836084
-GAOS	Maritime Antarctica	"King George Island, Graham Land"	ERR10836085
-PP_MAT	Maritime Antarctica	"Pourquoi Pas Island, Graham Land"	ERR10836086
-L7FR	Maritime Antarctica	"Vega Island, Graham Land"	ERR10836087
-Shackleton8	Transantarctic Mountains	Shackleton Range	ERR10836088
-Shackleton9	Transantarctic Mountains	Shackleton Range	ERR10836089
-Forlidas11	Transantarctic Mountains	Davis Valley	ERR10836090
-Forlidas12	Transantarctic Mountains	Davis Valley	ERR10836091
-Snow	East Antarctica	"Larseman Hills, Princess Elizabeth Land"	ERR10836092
-230_06	East Antarctica	"Luther Peak, Victoria Land"	ERR10836093
-WO8	East Antarctica	"Lutzow Holm Bay, Enderby Land"	ERR10836094
+13KAP6	Arctic	Kapisillit, Greenland	ERR10836078
+13ZAC7	Arctic	Zackenberg, Greenland	ERR10836079
+SP14-M002	Arctic	Spitsbergen, Svalbard	ERR10836080
+Mac8	sub-Antarctic	Macquarie Island, South Pacific Ocean	ERR10836081
+Prion	sub-Antarctic	Macquarie Island, South Pacific Ocean	ERR10836082
+MI44	sub-Antarctic	Marion Island, South Indian Ocean	ERR10836083
+Bel-s	Antarctic Peninsula	King George Island, Graham Land	ERR10836084
+GAOS	Antarctic Peninsula	King George Island, Graham Land	ERR10836085
+PP-MAT	Antarctic Peninsula	Pourquoi Pas Island, Graham Land	ERR10836086
+L7FR	Antarctic Peninsula	Vega Island, Graham Land	ERR10836087
+Shackleton-8	Transantarctic Mountains	Shackleton Mountains	ERR10836088
+Shackleton-9	Transantarctic Mountains	Shackleton Mountains	ERR10836089
+Forlidas-pond-11	Transantarctic Mountains	Pensacola Mountains	ERR10836090
+Forlidas-pond-12	Transantarctic Mountains	Pensacola Mountains	ERR10836091
+Snow	East Antarctica	Larsemann Hills, Princess Elizabeth Land	ERR10836092
+230-06	East Antarctica	Luther Peak, Victoria Land	ERR10836093
+WO8	East Antarctica	Lutzow Holm Bay, Enderby Land	ERR10836094

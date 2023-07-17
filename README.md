@@ -22,32 +22,29 @@ University of Liège
 
 ## Table of contents
 
-1. [Polar Cyanobacteria MAGs](#polar-cyanobacteria-mags)
-   1. [Contacts](#contacts)
-   2. [Table of contents](#table-of-contents)
-   3. [Software requirements](#software-requirements)
-   4. [Download raw sequencing data](#download-raw-sequencing-data)
-   5. [Check the quality of the raw sequencing data](#check-the-quality-of-the-raw-sequencing-data)
-   6. [Trim adapters, low-quality base calls, and discard short reads](#trim-adapters-low-quality-base-calls-and-discard-short-reads)
-   7. [Check the quality of the trimmed data](#check-the-quality-of-the-trimmed-data)
-   8. [Extract and classify reads matching the 16S rRNA gene](#extract-and-classify-reads-matching-the-16s-rrna-gene)
-   9. [Assemble the metagenomes](#assemble-the-metagenomes)
-      1. [Individual assemblies](#individual-assemblies)
-      2. [Co-assemblies](#co-assemblies)
-   10. [Import assemblies to `anvi'o`](#import-assemblies-to-anvio)
-   11. [Bin MAGs](#bin-mags)
-   12. [Gather and rename all MAGs](#gather-and-rename-all-mags)
-   13. [Assign taxonomy to the MAGs](#assign-taxonomy-to-the-mags)
-   14. [Collect cyanobacteria MAGs](#collect-cyanobacteria-mags)
-   15. [Import cyanobacteria MAGs to `anvi'o`](#import-cyanobacteria-mags-to-anvio)
-   16. [Phylogenomic analysis](#phylogenomic-analysis)
-       1. [Download all genomes of cyanobacteria in GenBank](#download-all-genomes-of-cyanobacteria-in-genbank)
-       2. [Import GenBank genomes to anvi'o](#import-genbank-genomes-to-anvio)
-       3. [Make lists of genomes for phylogenomics](#make-lists-of-genomes-for-phylogenomics)
-       4. [Build phylogenomic tree](#build-phylogenomic-tree)
-       5. [Calculate ANI](#calculate-ani)
-   17. [Annotate MAGs](#annotate-mags)
-   18. [Read recruiment analysis](#read-recruiment-analysis)
+1. [Software requirements](#software-requirements)
+2. [Download raw sequencing data](#download-raw-sequencing-data)
+3. [Check the quality of the raw sequencing data](#check-the-quality-of-the-raw-sequencing-data)
+4. [Trim adapters, low-quality base calls, and discard short reads](#trim-adapters-low-quality-base-calls-and-discard-short-reads)
+5. [Check the quality of the trimmed data](#check-the-quality-of-the-trimmed-data)
+6. [Extract and classify reads matching the 16S rRNA gene](#extract-and-classify-reads-matching-the-16s-rrna-gene)
+7. [Assemble the metagenomes](#assemble-the-metagenomes)
+  1. [Individual assemblies](#individual-assemblies)
+  2. [Co-assemblies](#co-assemblies)
+8.  [Import assemblies to anvi'o](#import-assemblies-to-anvio)
+9.  [Bin MAGs](#bin-mags)
+10. [Gather and rename all MAGs](#gather-and-rename-all-mags)
+11. [Assign taxonomy to the MAGs](#assign-taxonomy-to-the-mags)
+12. [Collect cyanobacteria MAGs](#collect-cyanobacteria-mags)
+13. [Import cyanobacteria MAGs to anvi'o](#import-cyanobacteria-mags-to-anvio)
+14. [Phylogenomic analysis](#phylogenomic-analysis)
+    1. [Download all genomes of cyanobacteria in GenBank](#download-all-genomes-of-cyanobacteria-in-genbank)
+    2. [Import GenBank genomes to anvi'o](#import-genbank-genomes-to-anvio)
+    3. [Make lists of genomes for phylogenomics](#make-lists-of-genomes-for-phylogenomics)
+    4. [Build phylogenomic tree](#build-phylogenomic-tree)
+    5. [Calculate ANI](#calculate-ani)
+15. [Annotate MAGs](#annotate-mags)
+16. [Read recruiment analysis](#read-recruiment-analysis)
 
 
 ## Software requirements
@@ -198,7 +195,7 @@ done
 ```
 
 
-## Import assemblies to `anvi'o`
+## Import assemblies to anvi'o
 
 ```bash
 mkdir BINNING
@@ -351,7 +348,7 @@ done
 Alternatively, you can download the set of 37 cyanobacteria MAGs used in our study [here](https://doi.org/10.6084/m9.figshare.22003967).
 
 
-## Import cyanobacteria MAGs to `anvi'o`
+## Import cyanobacteria MAGs to anvi'o
 
 ```bash
 # Concatenate MAGs
